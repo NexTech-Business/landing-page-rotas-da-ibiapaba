@@ -103,16 +103,11 @@ a {
   font-family: var(--font-heading);
   font-weight: var(--font-weight-light);
   font-size: var(--font-size-base-md);
-  @apply mb-3 break-words text-gray-600;
+  @apply mb-3 break-words;
 }
 
-a {
-  color: var(--brand-gray-default);
-}
 
-span {
-  @apply text-(--brand-black-default);
-}
+
 
 button {
   background-color: var(--brand-green-default);

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .hero {
-  @apply relative w-full h-300 overflow-hidden md:h-200 lg:h-200;
+  @apply relative w-full h-200 overflow-hidden md:h-180 lg:h-180;
 }
 
 .hero__image {
@@ -9,19 +9,22 @@
 }
 
 .hero__overlay {
-  @apply absolute inset-0 z-10 bg-gradient-to-r from-black/60  to-black/0;
+  @apply absolute inset-0 z-10 bg-gradient-to-r from-black/40  to-black/60;
 }
 
 .hero__content {
   @apply relative z-10 flex flex-col items-center justify-center gap-6
-  w-full h-full px-4 py-8 pt-32 md:flex-row md:justify-between md:px-10 md:py-0 lg:px-20;
+  w-full h-full px-4 py-8 pt-32 md:flex-row md:justify-center md:px-10 md:py-0 lg:px-20;
 }
 
 .hero__text {
-  @apply flex flex-col gap-4 items-center text-center  text-white w-full max-w-xl md:w-1/2 md:text-start md:items-start ;
+  @apply flex flex-col gap-4 items-center text-center  text-white w-full max-w-xl md:w-full  ;
 
   h1, p{
     @apply text-white ;
 
+  }
+  span {
+    @apply text-(--brand-black-default);
   }
 }

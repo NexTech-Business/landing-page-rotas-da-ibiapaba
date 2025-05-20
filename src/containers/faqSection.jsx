@@ -5,7 +5,7 @@ import "../css/containers/faqSection.css";
 import Container from "./containerDefault";
 const FaqSection = () => {
   return (
-    <section className="faq">
+    <section className="faq" id="faq">
       <Container>
         <div className="faq__content">
           <LabelComponent text="FAQ" />

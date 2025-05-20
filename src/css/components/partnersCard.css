@@ -1,16 +1,15 @@
 @import "tailwindcss";
 .partners__card {
-  @apply w-full py-15 px-0;
+  @apply w-full px-0;
 }
 
 .partners__wrapper {
-  @apply flex flex-col 
-  md:flex-row overflow-hidden
-   w-full ;
+  @apply flex flex-col md:flex-row overflow-hidden
+   w-full h-full;
 }
 
 .partners__image {
-  @apply w-full md:w-1/2 max-h-[500px];
+  @apply w-full md:w-1/2 h-auto;
 }
 
 .partners__content {
@@ -29,5 +28,5 @@
 }
 
 .partners__description {
-  @apply text-white max-w-2xl leading-relaxed text-center md:text-left mt-4;
+  @apply text-white max-w-2xl leading-relaxed text-center md:text-left mt-2;
 }

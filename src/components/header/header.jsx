@@ -12,7 +12,7 @@ const Header = () => {
           <LogoRotas />
           <NavBar />
           <div className=" gap-4  items-center hidden md:flex flex-row">
-            <ButtonRegister text="Saiba mais!" />
+            <ButtonRegister text="Cadastre-se" />
           </div>
         </div>
       </Container>
@@ -21,3 +21,5 @@ const Header = () => {
 };
 
 export default Header;
+
+

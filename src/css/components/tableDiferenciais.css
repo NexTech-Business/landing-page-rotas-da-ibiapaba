@@ -1,0 +1,50 @@
+@import "tailwindcss";
+.inicio {
+  @apply bg-white ;
+}
+
+.meio {
+  @apply bg-(--brand-green-default);
+}
+
+.fim {
+  @apply bg-(--brand-green-lemon-light) ;
+}
+.table{
+  @apply overflow-x-auto border-2 border-(--brand-green-default) rounded-2xl
+}
+.table-user {
+  @apply p-5 min-w-full divide-y divide-gray-200 ;
+}
+
+.tabela-cabecalho {
+  @apply bg-white text-white rounded-t-2xl ;
+}
+
+.tabela-cabecalho-coluna {
+  @apply w-33 px-6 py-3 text-left text-sm font-medium  tracking-wider;
+}
+
+.tabela-corpo {
+  @apply w-33 bg-white divide-y divide-gray-200;
+}
+
+.tabela-coluna-texto {
+  @apply px-6 py-4 whitespace-nowrap text-sm text-gray-900;
+}
+
+.tabela-coluna-icone {
+  @apply px-6 py-4 text-center;
+}
+
+.icone {
+  @apply w-5 h-5 cursor-pointer transition;
+}
+
+.icone-check {
+  @apply text-white hover:text-green-700;
+}
+
+.icone-fechar {
+  @apply text-(--brand-green-default) hover:text-red-700;
+}

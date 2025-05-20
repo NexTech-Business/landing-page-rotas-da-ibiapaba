@@ -1,31 +1,16 @@
-import LabelComponent from "../components/label";
-import video_img from ".././assets/img/cards/video_img.svg";
-import "../css/containers/aboutSection.css";
-import Container from "./containerDefault";
+import "../css/components/partnersCard.css";
+import PartnersCard from "../components/partnersCard";
+import funcionarios from "../assets/img/cards/investidores.jpg";
 
 const AboutSection = () => {
-  return (
-    <section className="about">
-      <Container>
-        <div className="about__content">
-          <LabelComponent text="Sobre a solução" />
-          <div className="about__text">
-            <h1>
-              Simples, rápido e eficiente!
-              <br /> Veja o Rotas da Ibiapaba em ação.
-            </h1>
-            <p>
-              Veja como nossa plataforma funciona na prática e ajuda
-              estabelecimentos da serra a vender mais e ganhar visibilidade de
-              forma simples e rápida.
-            </p>
-          </div>
-
-          <img src={video_img} alt="about_img" />
-        </div>
-      </Container>
-    </section>
-  );
+	return (
+		<section className="about__section py-10" id="about">
+			<PartnersCard
+				img={funcionarios}
+				label="Sobre nós"
+			/>
+		</section>
+	);
 };
 
 export default AboutSection;

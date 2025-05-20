@@ -5,13 +5,5 @@
 }
 
 .about__content {
-  @apply  w-full flex flex-col md:flex-col items-center justify-center gap-2;
-}
-
-.about__text {
-  @apply flex flex-col gap-2 text-center max-w-2xl;
-}
-
-.about__img {
-  @apply w-full flex items-center justify-center max-w-md md:max-w-lg rounded-xl shadow-lg;
+  @apply  w-full hidden md:flex flex-col items-center justify-center gap-2;
 }

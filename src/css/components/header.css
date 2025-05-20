@@ -17,9 +17,9 @@
 }
 
 .menu-button {
-  @apply sm:hidden text-gray-800 focus:outline-none;
+  @apply sm:hidden focus:outline-none;
 }
-
+ 
 .icon {
   @apply h-6 w-6;
 }
@@ -49,5 +49,5 @@
 }
 
 .menu-list a {
-  @apply text-white md:text-(--body-100-light) font-medium hover:text-(--brand-green-dark) transition duration-200;
+  @apply text-white md:text-(--body-100-light) font-semibold;
 }

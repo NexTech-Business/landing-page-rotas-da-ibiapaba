@@ -8,7 +8,7 @@ import Container from "./containerDefault";
 const CtaSection = () => {
   return (
     <section
-      className="cta-section"
+      className="cta-section" id="contact"
       style={{ backgroundImage: `url(${Image})` }}
     >
       <div className="cta-overlay"> </div>

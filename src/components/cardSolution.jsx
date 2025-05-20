@@ -1,7 +1,7 @@
 import "../css/components/cards.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
+import totem from "../assets/img/cards/mulher-totem-v2.png";
 import casal from "../assets/img/cards/casal.jpg";
 import dashboard from "../assets/img/cards/dashboard.png";
 import cliente from "../assets/img/cards/cliente.png";
@@ -21,34 +21,42 @@ const CardSolution = () => {
     },
     {
       id: 2,
+      image: totem,
+      title: "Venda com facilidade, ganhe com a nossa rede",
+      description:
+        "Com nosso totem, seu negócio atrai mais clientes, vende mais e ainda fatura com comissões atrativas. Destaque-se entre os estabelecimentos mais bem avaliados e ganhe visibilidade e credibilidade no mercado!",
+    },
+    {
+      id: 3,
       image: cliente,
       title: "Feche parcerias flexíveis com qualquer estabelecimento",
       description:
         "Adicione facilmente novos parceiros à sua rede e amplie suas oportunidades de negócios.",
     },
     {
-      id: 3,
+      id: 4,
       image: tela_dashboard,
       title: "Visão completa do seu negócio",
       description:
         "Acompanhe de forma fácil e intuitiva, por meio de um dashboard interativo, sua receita, parceiros ativos, vendas e o histórico de tickets do seu estabelecimento.",
     },
+   
     {
-      id: 4,
+      id: 5,
       image: dashboard,
       title: "Ganhe comissões",
       description:
         "A cada produto de parceiros vendido em seu estabelecimento você ganha comissões, ampliando suas fontes de receita enquanto oferece uma experiência única e diversificada aos seus clientes.",
     },
     {
-      id: 5,
+      id: 6,
       image: seguranca,
       title: "Segurança garantida",
       description:
         "Suas transações e dados são protegidos com tecnologia de ponta para total confiança.",
     },
     {
-      id: 6,
+      id: 7,
       image: acesso,
       title: "Acesso em tempo real",
       description:
@@ -118,3 +126,5 @@ const CardSolution = () => {
 };
 
 export default CardSolution;
+
+

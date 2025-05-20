@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 .card-security-container {
-  @apply flex flex-col w-full gap-2 items-center justify-center md:w-1/2 lg:w-1/2;
+  @apply flex flex-row w-full gap-1 items-center justify-center;
 }
 .card-security {
-  @apply flex flex-col gap-2 p-4 bg-(--brand-green-dark)/5 rounded-(--radius-sm) w-full ;
+  @apply flex flex-col gap-1 p-4 bg-(--brand-green-dark)/5 rounded-(--radius-sm) w-full;
 }
 .content-security {
-  @apply flex flex-col items-start  justify-center text-(--brand-green-dark) gap-3 break-words;
+  @apply flex flex-col items-start  justify-start text-(--brand-green-dark) gap-2 break-words h-40 w-auto p-1
 }
