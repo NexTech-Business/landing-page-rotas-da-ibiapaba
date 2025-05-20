@@ -5,7 +5,7 @@ import Container from "./containerDefault";
 
 const SolutionSection = () => {
   return (
-    <section className="solution">
+    <section className="solution" id="solution">
       <Container>
         <div className="solution__content ">
           <div className="solution__text">

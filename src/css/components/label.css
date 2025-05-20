@@ -2,5 +2,5 @@
 
 .label-component{
     @apply flex flex-row items-center justify-center pt-1 pb-1 pl-1 pr-1 
-    bg-(--bg-label) rounded-2xl w-35 mb-2  text-xs;
+    bg-(--bg-label) text-zinc-800 rounded-2xl w-35 mb-2  text-xs;
 }

@@ -1,6 +1,6 @@
 import AboutSection from "./containers/aboutSection";
 import HeroSection from "./containers/heroSection";
-import PartnersSection from "./components/partnersCard";
+
 import SecuritySection from "./containers/secutitySection";
 import SolutionSection from "./containers/solutionsSection";
 
@@ -8,15 +8,20 @@ import "./index.css";
 import FaqSection from "./containers/faqSection";
 import Footer from "./components/footer";
 import CtaSection from "./containers/ctaSection";
+import Tablet from "./containers/tablet";
+import TabelaUsuarios from "./components/tableDiferenciais";
+import DifferenceSection from "./containers/differenceSection";
 
 function App() {
   return (
     <>
       <HeroSection />
-      <AboutSection />
+      <Tablet />
       <SolutionSection />
       <SecuritySection />
-      <PartnersSection />
+      <AboutSection />
+
+      <DifferenceSection />
       <FaqSection />
       <CtaSection />
       <Footer />

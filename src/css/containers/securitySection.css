@@ -1,15 +1,15 @@
 @import "tailwindcss";
 .security {
-  @apply mx-4 md:mx-12;}
+  @apply mx-4 md:mx-12 py-15;}
 
 /* Container de conteúdo */
 .security__content {
-  @apply  flex flex-col md:flex-row justify-center items-center md:justify-around gap-12;
+  @apply  flex flex-col w-full justify-center items-center md:justify-around gap-12;
 }
 
 /* Texto da seção */
 .security__text {
-  @apply flex flex-col gap-2 text-center items-center justify-center md:items-start w-full md:w-1/2 md:text-left;
+  @apply flex flex-col gap-2 text-center items-center justify-center;
 }
 
 .security__text h1 {

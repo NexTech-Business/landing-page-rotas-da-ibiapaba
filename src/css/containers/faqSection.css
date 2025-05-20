@@ -2,11 +2,11 @@
 
 
 .faq {
-  @apply w-full;
+  @apply w-full py-15;
 }
 
 .faq__content {
-  @apply flex flex-col items-center justify-center space-y-10 max-w-4xl mx-auto text-center;
+  @apply flex flex-col items-center justify-center max-w-4xl mx-auto text-center;
 }
 
 .faq__text h1 {
