@@ -5,39 +5,39 @@ import { ChevronDown } from "lucide-react";
 const FAQ = () => {
 	const contentFaq = [
 		{
-			pergunta: "Como funciona o Totem de Acesso?",
+			pergunta: "Como funciona o acesso?",
 			resposta:
-				"O Totem permite que os clientes comprem produtos serranos — como ingressos, souvenirs e artesanato — diretamente no seu estabelecimento, de forma rápida e prática. É uma solução que melhora a experiência do cliente e aumenta as suas vendas.",
+				"Você pode acessar do seu celular ou computador para gerenciar as suas vendas e pedidos. E os seus clientes poderão comprar a partir de qualquer dispositivo ou de um dos nossos totens.",
 		},
 		{
 			pergunta: "O cliente precisa estar no estabelecimento para comprar?",
 			resposta:
-				"Não. O cliente pode comprar produtos de qualquer parceiro que possua um Totem, o que facilita o acesso aos seus produtos e aumenta o alcance do seu negócio.",
+				"Não. O cliente pode comprar produtos de qualquer parceiro através um link ou em Totens, o que facilita o acesso aos seus produtos e aumenta o alcance do seu negócio.",
 		},
 		{
 			pergunta: "Quais tipos de produtos podem ser vendidos?",
 			resposta:
-				"A plataforma permite a venda de diversos produtos típicos da região, como ingressos para atrações, artesanato, souvenirs e outros itens locais.",
+				"A plataforma permite a venda de produtos, serviços, ingressos e outros através de tickets de acesso, podendo valer produtos típicos da região, como ingressos para atrações, artesanato, souvenirs, passeios e outros itens turisticos locais.",
 		},
 		{
-			pergunta: "Como os clientes sabem quais locais possuem Totem?",
+			pergunta: "Como os clientes sabem quais locais possuem Totens?",
 			resposta:
-				"Todos os estabelecimentos parceiros com Totem estão listados no nosso site. Isso ajuda o cliente a encontrar facilmente onde comprar seus produtos.",
+				"Todos os estabelecimentos parceiros com Totens estão listados no nosso site. Isso ajuda o cliente a encontrar facilmente onde comprar seus produtos.",
 		},
 		{
 			pergunta: "Quais formas de pagamento são aceitas?",
 			resposta:
-				"Os Totens aceitam cartão de crédito, débito e PIX, oferecendo praticidade para os clientes e mais possibilidades de venda para o seu negócio.",
+				"Por enquanto, apenas pagamentos em Pix, oferecendo praticidade para os clientes e mais possibilidades de venda para o seu negócio.",
 		},
 		{
 			pergunta: "Sou dono de um estabelecimento. Como posso participar?",
 			resposta:
-				"Basta se cadastrar pelo nosso site. O processo é simples e rápido. Após a validação, seus produtos poderão ser exibidos nos Totens parceiros.",
+				"Basta se cadastrar pelo nosso site. O processo é simples e rápido. Após o cadastro, em até 48h estaremos entrando em contato.",
 		},
 		{
-			pergunta: "Como funciona a integração dos meus produtos no Totem?",
+			pergunta: "Como funciona a integração dos meus produtos na plataforma e nos Totens?",
 			resposta:
-				"Você cadastra seus produtos na plataforma e eles ficam automaticamente disponíveis nos Totens dos parceiros que você escolher.",
+				"Você cadastra seus produtos na plataforma e eles ficam automaticamente disponíveis nos Totens dos parceiros mais próximos, conforme o plano que você contratar.",
 		},
 		{
 			pergunta: "Quem define os preços dos produtos?",
@@ -45,9 +45,9 @@ const FAQ = () => {
 				"O controle é todo seu! O próprio estabelecimento define os preços dos produtos cadastrados.",
 		},
 		{
-			pergunta: "Como recebo o pagamento das vendas feitas pelo Totem?",
+			pergunta: "Como recebo o pagamento das vendas feitas pela palataforma?",
 			resposta:
-				"Os pagamentos são transferidos diretamente para a sua conta cadastrada, dentro do prazo estipulado em contrato.",
+				"Os pagamentos são transferidos diretamente para a sua conta cadastrada, dentro do prazo estipulado em contrato e termos de uso. Basta solicitar pelo próprio sistema o pedido de saque.",
 		},
 		{
 			pergunta: "E se eu tiver problemas técnicos com o Totem?",
