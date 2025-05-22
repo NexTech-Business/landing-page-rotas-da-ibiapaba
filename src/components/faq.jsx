@@ -5,9 +5,10 @@ import { ChevronDown } from "lucide-react";
 const FAQ = () => {
 	const contentFaq = [
 		{
-			pergunta: "Como funciona o acesso?",
+			pergunta: "Como funciona o acesso ao sistema Rotas da Ibiapaba?",
 			resposta:
-				"Você pode acessar do seu celular ou computador para gerenciar as suas vendas e pedidos. E os seus clientes poderão comprar a partir de qualquer dispositivo ou de um dos nossos totens.",
+				"Você pode acessar usando seu celular ou computador para gerenciar as suas vendas e pedidos."+ \n 
+				+ "Seus clientes poderão comprar a partir de qualquer dispositivo ou por meio de um dos nossos totens espalhados pelos estabelecimentos parceiros ou em pontos turísticos estratégicos.",
 		},
 		{
 			pergunta: "O cliente precisa estar no estabelecimento para comprar?",
