@@ -7,8 +7,8 @@ const FAQ = () => {
 		{
 			pergunta: "Como funciona o acesso ao sistema Rotas da Ibiapaba?",
 			resposta:
-				"Você pode acessar usando seu celular ou computador para gerenciar as suas vendas e pedidos."+ \n 
-				+ "Seus clientes poderão comprar a partir de qualquer dispositivo ou por meio de um dos nossos totens espalhados pelos estabelecimentos parceiros ou em pontos turísticos estratégicos.",
+				"Você pode acessar usando seu celular ou computador para gerenciar as suas vendas e pedidos. 
+				Seus clientes poderão comprar a partir de qualquer dispositivo ou por meio de um dos nossos totens espalhados pelos estabelecimentos parceiros ou em pontos turísticos estratégicos.",
 		},
 		{
 			pergunta: "O cliente precisa estar no estabelecimento para comprar?",
